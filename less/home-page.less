@@ -1,5 +1,26 @@
 // Home Content
+h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  background-color: lightgrey;
 
+ @media @phone {
+    margin-bottom: 2%;
+ }
+}
+
+header {
+  background-color: lightgrey;
+  margin: 10px 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center; 
+  margin: 0 auto;
+
+}
 .home {
 
   .intro {
@@ -57,7 +78,8 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+      .sign-up {
+        .custom-btn(pink, white);
       }
     }
 
@@ -72,4 +94,4 @@
       }
     }
   }
-}// home
+}
