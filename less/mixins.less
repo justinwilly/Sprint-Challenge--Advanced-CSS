@@ -1,12 +1,19 @@
 // Mixins Here
 
-.custom-btn(@font-color:white, @background-color:black){
+
+
+.custom-btn(@font-color:white, @background-color:@header-font-color){
     display: block;
     background-color:@background-color;
-    font-size: 15px;
+    font-size: 1.7rem;
     color: @font-color;
+    margin: 0 5px 10px;
+    border-radius: 5px;
 
-
+   &:hover{
+        background-color: white;
+        color: @header-font-color;
+    }
 }
 
-
+/* */

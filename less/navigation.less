@@ -4,8 +4,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: baseline;
-
-
+    
+    @media @phone {
+        nav{
+        width: 85%;
+        font-size: 1rem;
+        display: flex;
+        margin-top: 0;
+        
+    } 
+}
 a {
    
     width: 85%;
@@ -14,5 +22,8 @@ a {
     text-decoration: none;
     color: black;
     margin-left: 3%;
+    margin-right: 3%;
+    
+
     }    
 }
